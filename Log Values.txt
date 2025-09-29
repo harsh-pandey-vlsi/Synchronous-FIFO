@@ -1,0 +1,17 @@
+Time resolution is 1 ps
+---- Writing FIFO ----
+Time=30000 | DIN=24 | FULL=0 | COUNT=1
+Time=40000 | DIN=81 | FULL=0 | COUNT=2
+Time=50000 | DIN=9 | FULL=0 | COUNT=3
+Time=60000 | DIN=63 | FULL=1 | COUNT=4
+Time=70000 | DIN=d | FULL=1 | COUNT=4
+Time=80000 | DIN=8d | FULL=1 | COUNT=4
+---- Reading FIFO ----
+Time=90000 | DOUT=24 | EMPTY=0 | COUNT=3
+Time=100000 | DOUT=81 | EMPTY=0 | COUNT=2
+Time=110000 | DOUT=9 | EMPTY=0 | COUNT=1
+Time=120000 | DOUT=63 | EMPTY=1 | COUNT=0
+Time=130000 | DOUT=63 | EMPTY=1 | COUNT=0
+Time=140000 | DOUT=63 | EMPTY=1 | COUNT=0
+---- Mixed Operations ----
+$finish called at time : 170 ns : File "C:/Users/hp/Desktop/VLSI PROJECTS/Synchronous FIFO/Synchronous FIFO.srcs/sources_1/new/tb_fifo_sync.v" Line 64
